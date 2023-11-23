@@ -1,0 +1,35 @@
+{
+    "formId": "1m05QUos6rP_Nmi2iAHv_w3EK8k-5icwO2QFliZni7z0",
+    "deployedItems": {
+        "Breakfast": {
+            "67d6139c": "Pav",
+            "6d780ce0": "Vegetable Bhaji",
+            "160ca189": "Muskmelon",
+            "5a4075c4": "Pesto Mayo Sandwich",
+            "064003dc": "Tea",
+            "4de4906f": "Coffee",
+            "3e0b1966": "Mix Pickle"
+        },
+        "Lunch": {
+            "1ab7e9d7": "Dal Pancratni",
+            "717124c2": "Palak Paneer",
+            "79032458": "Sambar",
+            "21139d83": "Steamed Rice",
+            "55311c66": "Bhel Chat",
+            "23c1b57a": "Chapati",
+            "30a96f3e": "Lemon Mint Water",
+            "3e8d3343": "Dhaba Murgh",
+            "5e3df6e9": "Mix Pickle"
+        },
+        "Dinner": {
+            "0af6d4e2": "Gatta Curry",
+            "549763f0": "Dal Lobhiya",
+            "20084fc4": "Rasam",
+            "73faea07": "Pea Pulao",
+            "07f498b2": "Veg Hot And Sour",
+            "499698d4": "Chapati",
+            "430216e6": "Vegetable Pasta Salad",
+            "6c6a3c0d": "Chicken Masala"
+        }
+    }
+}

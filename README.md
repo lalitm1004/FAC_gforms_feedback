@@ -8,11 +8,11 @@ This project uses Google Forms API to automatically update a google form with to
 3. Make and download an OAuth client ID json file. Rename it to `client_secret.json` and place it in `data/`.
 4. Create a `current_deployment.json` file in `data/`.
 5. Create a mongoDB cluster and save its connection URL in a `.env` file under `MONGODB_CONNECTION_URL`. (Make sure to include the password in the URL.)
-4. Update `data/upcoming_menu.csv` as required. Prefixes:
+6. Update `data/upcoming_menu.csv` as required. Prefixes:
     - `<b>` - Breakfast
     - `<l>` - Lunch
     - `<d>` - Dinner
-5. Run `main.py` and follow the terminal.
+7. Run `main.py` and follow the terminal.
 
 # TODO
 - Automate a method to create `upcoming_menu.csv`. Currently it needs to be done manually.

@@ -18,6 +18,7 @@ if __name__ == "__main__":
     print("+-----=FAC Feedback Form=-----+")
     print("(A) - Deploy Todays Menu")
     print("(B) - Collect Responses")
+    print("(C) - Create New Deployment")
     print("+-----------------------------+")
 
     mode = input("> ").lower()
@@ -56,7 +57,30 @@ if __name__ == "__main__":
                 print("Exiting.")
             else:
                 print("Invalid input. Exiitng.")
+
+            print("Clear form? (Y/N)")
+            confirmation = input("> ").lower()
+            if confirmation == "y":
+                form_tool.clear_form()
+                print("Form cleared.")
+            elif confirmation == "n":
+                print("Exiting.")
+            else:
+                print("Invalid input. Exiting.")
+
         elif confirmation == "n":
             print("Exiting.")
         else:
             print("Invalid input. Exiting.")
+    if mode == "c":
+        print("Doing so will create a new form. Are you absolutely sure? (Y/N)")
+        confirmation = input("> ").lower()
+        if confirmation == "y":
+            form_tool.create_new_form()
+            print("New form deployed. Check your google forms to access it.")
+        elif confirmation == "n":
+            print("Exiting.")
+        else:
+            print("Invalid input. Exiting.")
+    else:
+        print("Invalid input. Exiting.")

@@ -39,7 +39,7 @@ if __name__ == "__main__":
             print("Exiting.")
         else:
             print("Invalid input. Exiting.")
-    if mode == "b":
+    elif mode == "b":
         responses = form_tool.compile_responses()
         for key, value in responses.items():
             print(f"{key} - {value}")
@@ -72,7 +72,7 @@ if __name__ == "__main__":
             print("Exiting.")
         else:
             print("Invalid input. Exiting.")
-    if mode == "c":
+    elif mode == "c":
         print("Doing so will create a new form. Are you absolutely sure? (Y/N)")
         confirmation = input("> ").lower()
         if confirmation == "y":

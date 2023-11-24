@@ -8,3 +8,4 @@ client_secret.json
 token.json
 
 upcoming_menu.csv
+current_deployment.json

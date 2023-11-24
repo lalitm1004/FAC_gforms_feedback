@@ -7,5 +7,5 @@ __pycache__
 client_secret.json
 token.json
 
-upcoming_menu.csv
-current_deployment.json
+data/upcoming_menu.csv
+data/current_deployment.json
